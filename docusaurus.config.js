@@ -13,7 +13,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/html_info',
           activeBasePath: 'docs',
@@ -37,11 +37,7 @@ module.exports = {
             {
               label: 'HTML Course',
               to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
+            }
           ],
         },
         {
@@ -68,7 +64,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/nickforthewin/web-dev/edit/master/website/',
+            'https://github.com/nickforthewin/web-dev/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
