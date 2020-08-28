@@ -36,7 +36,7 @@ module.exports = {
           items: [
             {
               label: 'HTML Course',
-              to: 'docs/doc1',
+              to: 'docs/html_info',
             }
           ],
         },
